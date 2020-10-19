@@ -17,5 +17,5 @@ The dataset for this project originates from the UCI Machine Learning Repository
 - ptratio: pupil-teacher ratio by town.
 - black: 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town.
 - lstat:lower status of the population (percent).
-- mev: median value of owner-occupied homes in \$1000s.
+- medv: median value of owner-occupied homes in \$1000s.
 
