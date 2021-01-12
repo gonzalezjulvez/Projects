@@ -1,1 +1,1 @@
-![Spark Logo](https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/ICON%20-%20Black%20on%20Transparent.png)
+![Spark Logo](https://miro.medium.com/max/2400/1*0gBd5GQiiC5dFwL_B0DKZA.png)
