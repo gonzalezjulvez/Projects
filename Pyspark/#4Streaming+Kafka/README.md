@@ -4,7 +4,7 @@
 
 En este proyecto esdrújula llevaremos a cabo un sistema de mensajería de datos en streaming mediante la herramienta kafka y Spark Streaming.
 
-##### Apache Kafka
+#### Apache Kafka
 
 Arrancamos los servicios de kafka y zookeeper.
 
@@ -22,7 +22,7 @@ Una vez creado el topic ya podemos abrir el producer para introducir los datos.
 
 Los mensajes por defecto kafka es capaz de almacenarlos durante una semana. Una vez creado el topic y el producer pasaremos a la creación del esquema para analizar los stream con PrestoDB
 
-##### PrestoDB
+#### PrestoDB
 
 Deberemos crear un fichero kafka.properties creándose asi una nueva fuente de datos en el siguiente texto:
 
