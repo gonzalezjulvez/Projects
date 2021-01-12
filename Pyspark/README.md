@@ -11,8 +11,9 @@
 - La segunda práctica entraremos a trabajar con la librería de Pyspark SQL 
 - Resolveremos una problemática con un conjunto de datos del mundo real para luego aplicar algoritmos de machine learning de regresión supervisada.
 
-# Project 3: Movie-Rating 
-## (En curso)
+# Project 3: Weblogs
 
-- En esta práctica seguimos utilizando las herramientas de la librería PysparK como son SQL y MLIB.
-- En este caso abordaremos varios datasets donde encontramos 100 mil ratings y 10 mil películas, el objetivo que perseguimos sera crear un recomendador a partir de los algoritmos que tiene nuestra librería de MLIB.
+- Continuamos con ls libreria de SQL pero esta vez empezamos la utilizacion de Pyspark 3.0.1
+- Resolveremos un problema tipico de Logs mediante la nueva arquitectura de Spark.
+- Uso de regex
+
