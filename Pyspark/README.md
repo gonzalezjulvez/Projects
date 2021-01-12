@@ -13,12 +13,12 @@
 
 ## Project 3: Weblogs
 
-- Continuamos con la librería **PySpark SQL** pero esta vez empezamos la utilización de **Pyspark 3.0.1**
+- Continuamos con la librería **PySpark SQL** pero esta vez empezamos la utilización de **Pyspark 3.0.1**.
 - Resolveremos un problema típico de Logs mediante la nueva arquitectura de Spark con DataFrames.
-- Uso de **regex**
+- Uso de **regex**.
 
 ## Project 4: Mensajera Streaming
 
 - Utilizamos la librería de **Apache Streaming** para la creación de un sistema de mensajería en streaming.
-- Usaremos **Apache Kafka** para el envío de mensaje
+- Usaremos **Apache Kafka** para el envío de mensaje.
 - **PrestoDB** para controlar los mensajes enviados por los productores de Kafka.
