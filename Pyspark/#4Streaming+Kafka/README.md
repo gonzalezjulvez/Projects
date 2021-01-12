@@ -1,1 +1,1 @@
-![Spark Logo](https://miro.medium.com/max/2400/1*0gBd5GQiiC5dFwL_B0DKZA.png)
+![Kafka Logo](https://grape.solutions/img/partners/logo_kafka.png) + ![Spark Logo](http://spark-mooc.github.io/web-assets/images/ta_Spark-logo-small.png)
