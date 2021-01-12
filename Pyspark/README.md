@@ -13,7 +13,7 @@
 
 # Project 3: Weblogs
 
-- Continuamos con ls libreria de SQL pero esta vez empezamos la utilizacion de Pyspark 3.0.1
-- Resolveremos un problema tipico de Logs mediante la nueva arquitectura de Spark.
+- Continuamos con ls librería de SQL pero esta vez empezamos la utilización de Pyspark 3.0.1
+- Resolveremos un problema típico de Logs mediante la nueva arquitectura de Spark.
 - Uso de regex
 
