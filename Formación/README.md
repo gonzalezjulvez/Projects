@@ -1,0 +1,1 @@
+En esta carpeta se irá alojando notebooks que ire creando conforme este estudiante diferentes tecnologias. La mayoría de codigo alojada en esta carpeta serán copiados de diferentes canales de youtube y paginas web, acompañadas de comentarios que me facilitaran el entendimiento.
