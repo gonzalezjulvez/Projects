@@ -2,7 +2,7 @@
 
 # Proyecto 4: Sistema Streaming con Kafka+PrestoDb
 
-En este proyecto esdrújula llevaremos a cabo un sistema de mensajería de datos en streaming mediante la herramienta kafka y Spark Streaming.
+En este proyecto llevaremos a cabo un sistema de mensajería de datos en streaming mediante la herramienta kafka y Spark Streaming.
 
 ### Apache Kafka
 
@@ -24,49 +24,17 @@ Los mensajes por defecto kafka es capaz de almacenarlos durante una semana. Una 
 
 ### PrestoDB
 
-Deberemos crear un fichero kafka.properties creándose asi una nueva fuente de datos en el siguiente texto:
+Deberemos crear un fichero llamado kafka.properties que nos permitirá crear y configurar una nueva fuente de datos para presto este fichero se alojará en presto-server-0.213/etc/catalog/kafka.properties
 
-connector.name=kafka 
+Ya le hemos indicado a PrestoDB que datos leer, ahora deberemos indicarle cual será la estructura de esos datos, para ello deberemos crearemos un archivo .json en presto-server-0.213/etc/kafka/json_topic.json indicandole el formato y la estructura en la que recibira los datos.
 
-kafka.nodes=localhost:9092
+Ambos archivos se encuentran adjuntados en el repositorio. 
 
-kafka.table-names:json_topic
+Una vez configurado podremos arrancar nuestro servicio presto y comenzar a explorar nuestros datos. 
 
-kafka.hide-internal-columns = false
+- presto-server-0.213/bin/launcher start
+- ./presto --catalog kafka --schema default
 
+### Spark Streaming
 
-Este fichero se alojará en presto-server-0.213/etc/catalog/kafka.properties
-
-Ya le hemos indicado a PrestoDB que datos leer, ahora deberemos indicarle cual será la estructura de esos datos.
-
-Creamos un archivo .json en presto-server-0.213/etc/kafka/json_topic.json con la siguiente estructura.
-
-En la nuestro caso será:
-
-{
-"tableName": "json_topic",
-"topicName": "json_topic",
-"schemaName": "default",
-"message": {
-"dataFormat":"json",
-"fields": [
-{
-"name": "nombre",
-"mapping": "nombre",
-"type": "VARCHAR"
-},
-{
-"name": "edad",
-"mapping": "edad",
-"type": "INT"
-},
-{
-"name": "peso",
-"mapping": "peso",
-"type": "DOUBLE"
-}
-]
-}
-}
-
-
+Arrancamos nuestro archivo streaming.ipynb 
