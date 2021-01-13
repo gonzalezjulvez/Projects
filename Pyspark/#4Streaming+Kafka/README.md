@@ -7,10 +7,10 @@ En este proyecto llevaremos a cabo un sistema de mensajería de datos en streami
 ### Apache Kafka
 
 Arrancamos los servicios de kafka y zookeeper.
-
+<span style='background:cream'>  
 - zookeeper-server-start.sh config/zookeeper.properties
 - kafka-server-start.sh config/server.properties
-
+</span>
 Crearemos el topic que nos permita mandar y distribuir los datos hacía los consumidores, 
 en nuestro caso serán leídos por Apache Streaming.
 
