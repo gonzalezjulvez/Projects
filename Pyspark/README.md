@@ -22,3 +22,9 @@
 - Utilizamos la librería de **Apache Streaming** para la creación de un sistema de mensajería en streaming.
 - Usaremos **Apache Kafka** para el envío de mensaje.
 - **PrestoDB** para controlar los mensajes enviados por los productores de Kafka.
+
+## Project 5: Credit Card Fraud
+
+- Utilizamos la librería de **Apache Streaming** para la creación de un sistema de mensajería en streaming.
+- Usaremos **Apache Kafka** para el envío de mensaje.
+- **PrestoDB** para controlar los mensajes enviados por los productores de Kafka.
