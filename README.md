@@ -1,3 +1,3 @@
 # Projects
-Proyectos
+Proyect
 
