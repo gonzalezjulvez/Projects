@@ -2,7 +2,7 @@
 
 Se trata de un proyecto guiado que iré desarrollando conforme a los videos del canal de youtube [sensio](https://www.youtube.com/channel/UCDhbl_RkuRF7WLZp9Q88FdQ).
 
-El objetivo de este proyecto es aprender técnicas de Deep learning mediante la librería de tensorflow.
+El objetivo de este proyecto es aprender técnicas de Deep learning mediante la librería de tensorflow y pytorch.
 
 
 ### Lista de videos
